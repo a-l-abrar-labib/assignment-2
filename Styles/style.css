@@ -209,6 +209,79 @@ body {
 
 /* Choose Place End */
 
+/* Why Choose Us Start */
+
+.why-choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-choose-details {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.why-choose-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hotels {
+    width: 570px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 40px;
+    padding-right: 55px;
+}
+
+.hotels img {
+    margin-top: 32px;
+}
+
+.hotel-card-title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.service {
+    width: 570px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 40px;
+    padding-right: 55px;
+}
+
+.service img, .guarantee img {
+    margin-top: 32px;
+}
+
+.service-card-title, .guarantee-card-title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.guarantee {
+    width: 570px;
+    height: 280px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 40px;
+    padding-right: 55px;
+    margin: 20px 0 0 570px;
+}
+
+/* Why Choose Us End */
+
 /* Responsive Styles */
 /* large: 992-up
 small: 600-down */
