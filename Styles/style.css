@@ -279,7 +279,7 @@ body {
     background: rgba(233, 68, 68, 0.05);
     padding-left: 40px;
     padding-right: 55px;
-    margin: 20px 0 0 570px;
+    margin: 20px 0 0 43 0px;
 }
 
 /* Why Choose Us End */
@@ -365,12 +365,163 @@ body {
 
 /* Perfect Place End */
 
+/* Newsletter Start */
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 180px 0 180px;
+    margin-top: 100px;
+}
+
+.newsletter-content {
+    width: 470px;
+    height: 420px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding-left: 65px;
+}
+
+.news-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 16px ;
+}
+
+.news-details {
+    width: 350px;
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.newsletter-content hr {
+    width: 390px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    border: none;
+    margin: 8px 8px 8px 0px; 
+}
+
+.newsletter-container input {
+    width: 390px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 24px;
+    margin-bottom: 0;
+    border: none;
+    outline: none;
+}
+
+.news-btn {
+    width: 390px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.newsletter-img img {
+    width: 670px;
+    height: 420px;
+    border-radius: 16px;
+}
+
+.save-up-to {
+    width: 324px;
+    height: 80px;
+    border-radius: 16px;
+    background: #ff5400;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    transform: rotate(-19.628deg);
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 344px;
+    top: -144px;
+}
+
+.save-up-to span {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Newsletter End */
+
 
 /* Responsive Styles */
 /* large: 992-up
 small: 600-down */
 
 @media screen and (max-width: 600px) {
+    /* Newsletter Start */
+
+    .newsletter-container {
+        flex-direction: column;
+        margin: 24px auto;
+        padding: 0 40px 0 40px;
+    }
+
+    .newsletter-content {
+        width: 375px;
+        height: 450px;
+        padding-left: 30px;
+    }
+
+    .news-title {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+
+    .news-details {
+        width: 270px;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .newsletter-content hr {
+        width: 288px;
+    }
+    .newsletter-container input {
+        width: 285px;
+        height: 50px;
+        margin-top: 16px;
+    }
+
+    .news-btn {
+        width: 285px;
+        height: 50px;
+    }
+
+    .newsletter-img img {
+        width: 335px;
+        height: 300px;
+        margin-top: 16px;
+    }
+
+    .save-up-to {
+        width: 200px;
+        height: 65px;
+        font-size: 15px;
+        left: 130px;
+        top: -110px;
+    }
+
+    .save-up-to span {
+        font-size: 20px;
+    }
+
+    /* Newsletter End */
     /* Banner Start */
 
     .banner {
@@ -519,5 +670,6 @@ small: 600-down */
     }
 
     /* Perfect Place End */
+
 
 }
