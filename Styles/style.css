@@ -130,12 +130,11 @@ body {
 .tour-container {
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row; */
+    padding: 0 180px 0 180px;
 }
 
 .tour-title {
     color: #131318;
-    /* text-align: center; */
     font-size: 40px;
     font-weight: 800;
     margin: 0;
@@ -200,7 +199,6 @@ body {
 }
 
 .choose-details {
-    /* width: 643px; */
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -210,6 +208,10 @@ body {
 /* Choose Place End */
 
 /* Why Choose Us Start */
+
+.why-choose {
+    padding: 0 180px 0 180px;
+}
 
 .why-choose-title {
     color: #131318;
@@ -282,6 +284,88 @@ body {
 
 /* Why Choose Us End */
 
+/* Deals & Discounts Start */
+
+.deal-title {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+
+.deal-details {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.deal-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.img-1 img, .img-2 img, .img-3 img {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+/* Deals & Discounts End */
+
+/* Perfect Place Start */
+
+.perfect-place-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 0 180px 0 180px;
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    width: 448px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.perfect-details {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+    width: 532px;
+}
+
+.perfect-ul li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    width: 518px;
+}
+
+.perfect-li {
+    margin-bottom: 16px;
+}
+
+.perfect-clip {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px ;
+}
+
+/* Perfect Place End */
+
+
 /* Responsive Styles */
 /* large: 992-up
 small: 600-down */
@@ -321,6 +405,7 @@ small: 600-down */
 
     .tour-container {
         flex-direction: column;
+        padding: 0 40px 0 40px;
     }
 
     .tour-title {
@@ -351,4 +436,88 @@ small: 600-down */
     }
 
     /* Popular Tour End */
+
+    /* Why Choose Us Start */
+
+    .why-choose {
+        padding: 0 40px 0 40px;
+    }
+
+    .why-choose-card {
+        flex-direction: column;
+    }
+
+    .hotels, .service, .guarantee {
+        width: 335px;
+        margin-left: 25px;
+    }
+
+    .hotel-card-title, .service-card-title, .guarantee-card-title {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .why-choose-title, .hotel-card-title, .service-card-title, .guarantee-card-title {
+        font-size: 20px;
+    }
+
+    .why-choose-details {
+        font-size: 14px;
+        width: 305px;
+        margin: 0 auto 15px auto;
+    }
+    /* Why Choose Us End */
+
+    /* Deals & Discounts Start */
+
+    .deal-title {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .deal-details {
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .img-1 img, .img-2 img, .img-3 img {
+        width: 335px;
+        object-fit: cover;
+    }
+
+    .deals .primary-btn {
+        margin-top: 24px;
+    }
+
+    /* Deals & Discounts End */
+
+    /* Perfect Place Start */
+
+    .perfect-place-container {
+        flex-direction: column;
+        padding: 0 40px 0 40px;
+    }
+
+    .perfect-title {
+        width: 245px;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .perfect-details, .perfect-ul li {
+        width: 335px;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .perfect-clip {
+        width: 335px;
+        height: 200px;
+        border-radius: 16px;
+    }
+
+    /* Perfect Place End */
+
 }
