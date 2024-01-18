@@ -797,6 +797,10 @@ small: 600-down */
     margin-left: 35px;
   }
 
+  ..deal-content-details {
+    width: 0;
+  }
+
   /* Choose Place End */
 
   /* Why Choose Us Start */
